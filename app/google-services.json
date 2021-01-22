@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "238785826788",
+    "firebase_url": "https://telemarketingapp-b35cc.firebaseio.com",
+    "project_id": "telemarketingapp-b35cc",
+    "storage_bucket": "telemarketingapp-b35cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:238785826788:android:8d495c8ca255b97f0a41f1",
+        "android_client_info": {
+          "package_name": "com.example.telemarketingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "238785826788-etbv0uumdpjfcefkiib2k8ptukr44oot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.telemarketingapp",
+            "certificate_hash": "2df88a93ba1f8de5e3314aa70ab25449aef94ac2"
+          }
+        },
+        {
+          "client_id": "238785826788-5u3c640bm59br4bgj0optkbtpvl65u6t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBnyRD38qRFzpsosglaN5QeBWXqvx87YZU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "238785826788-5u3c640bm59br4bgj0optkbtpvl65u6t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

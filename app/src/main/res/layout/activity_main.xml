@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context=".MainActivity">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+
+        android:src="@drawable/tele_logo2"
+        android:id="@+id/img"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:text="Telemarketing App helps you engage with leads and customers, get insights about your business, build a scalable sales process, and grow your business faster."
+        android:fontFamily="sans-serif-condensed-medium"
+        android:padding="8dp"
+        android:textColor="#000"
+        android:layout_alignParentBottom="true"
+        android:background="#6BE9E0E0"
+        />
+
+
+
+
+
+
+
+
+</RelativeLayout>

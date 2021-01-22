@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        android:id="@+id/popdown"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:text="Category Name :"
+                android:textColor="#000"
+                android:fontFamily="sans-serif-condensed"
+                />
+            <EditText
+                android:id="@+id/category_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:hint="..................."
+                android:fontFamily="sans-serif-condensed"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/add_category_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Category"
+            android:textAllCaps="false"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="30dp"
+            android:background="#E28804"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            />
+
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/popdown"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select The Category To Delete It "
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="27dp"
+            />
+        <Spinner
+            android:id="@+id/spiiiii"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            >
+
+        </Spinner>
+        <Button
+            android:id="@+id/deletehulk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete"
+            android:textSize="20dp"
+            android:background="#DB0D0D"
+            android:layout_marginHorizontal="25dp"
+            android:textColor="#fff"
+            android:layout_marginTop="24dp"
+            />
+    </LinearLayout>
+
+</RelativeLayout>

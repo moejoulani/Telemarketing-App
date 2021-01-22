@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".info">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#8BC34A"
+
+        />
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#8BC34A">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            >
+
+            <TextView
+                android:id="@+id/close_btn_hoho"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Close"
+                android:fontFamily="sans-serif-condensed"
+
+
+                android:layout_alignParentEnd="true"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tips For TeleMarketing"
+
+                android:layout_centerHorizontal="true"
+                android:textColor="#000000"
+                android:textSize="17sp"
+                />
+
+
+
+
+
+        </RelativeLayout>
+
+
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_below="@id/app_bar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="5dp"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Effective Tips for Successful Outbound Telemarketing"
+            android:textColor="#000"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            />
+    <TextView
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1 - Have a Script"
+        android:textColor="#000"
+        android:textStyle="bold"
+        />
+<TextView
+    android:layout_margin="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Once you have your objective in mind, you can create a small script or scripts that will help you achieve your objective. For example, if you want a few specific e-mail addresses—the script might be:
+
+“Hi, my name’s Sally. I’m calling from logo design company XYZ. I’d like to send your marketing manager an introductory e-mail about our services. Could you tell me the name and e-mail address please?”
+
+Your script is your guide to how you will conduct the first part of your call. It doesn’t have to be followed perfectly, and you will find that you’ll naturally vary the wording slightly from call to call – it’s just there to remind you of what you want to say, in case you get stuck."
+    />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 - Speak Slowly and Clearly"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="It’s normal to be a little nervous when you first start cold calling; unfortunately, that nervousness can often cause you to blurt out your script rather than relay it in a way the person on the other end of the line can understand.
+
+Dropping your arms to your sides when you get through can create pressure on the diaphragm and help you slow down. With a more natural speed, you’ll sound more sincere. Sincerity works well in conducting business. And it feels good, too."
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 - Be Prepared to Have a Conversation"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The person on the other end may have questions for you. You should be prepared to talk through any issues or concerns they have. If telemarketing were simply a “make a call, get an answer, hang up” proposition, it would be a much faster form of marketing than it actually is, and we wouldn’t need to write much more about it here."
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3 - Be Prepared to be Told “No” or “No, Thank you”"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Truthfully, sometimes the response will be even ruder. Don’t let it upset you. If you feel confident, you can try—politely—to argue your case, but sometimes a “no” really is a “no”. Imagine the shoe on the other foot, too—you don’t say “yes” all the time, do you? Let it go, thank the person for taking the time and try again another day. Telemarketing requires a lot of persistence to produce good results.
+
+"
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4 - Always End a Call Politely"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Whether you get what you wanted or not, always thank the person on the other end for his or her time. It may take many calls to get what you want, and you’ll be remembered, and not in the way you want to be, if you’re not polite. You’re only as good as your last call, and first impressions last. Of course—it almost goes without saying—you should be polite throughout the entire call, too."
+            />
+        <TextView
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5 - Always Take Action on Your Calls"
+            android:textColor="#000"
+            android:textStyle="bold"
+            />
+        <TextView
+            android:layout_margin="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="If you say you’re going to send some marketing material – send it. Ideally, send it right there and then. Never leave it longer than the end of the working day—the sundown rule. If you waste somebody’s time or leave them dangling, waiting for undelivered promises, they won’t be likely to buy your services in the future. And they can tell others about you."
+            />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Done"
+        android:textAllCaps="false"
+        android:textSize="18dp"
+        android:id="@+id/finish_btn"
+        />
+    </LinearLayout>
+</RelativeLayout>
+
+</ScrollView>

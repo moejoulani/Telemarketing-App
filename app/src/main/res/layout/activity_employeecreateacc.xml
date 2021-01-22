@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".employeecreateacc">
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="180dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/tele_logo3"
+        android:id="@+id/topimg"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/topimg"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create Employee Account"
+            android:textColor="#000"
+            android:gravity="center"
+            android:textSize="20dp"
+            />
+        <EditText
+            android:id="@+id/Emusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Employee Email...."
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:layout_marginHorizontal="14dp"
+
+            />
+        <EditText
+            android:id="@+id/EmcompanyName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="company email...."
+            android:singleLine="true"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:layout_marginHorizontal="14dp"
+            />
+        <EditText
+            android:id="@+id/Empassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="password......."
+            android:gravity="center"
+            android:maxLength="3"
+            android:layout_marginTop="10dp"
+            android:singleLine="true"
+            android:layout_marginHorizontal="14dp"
+            android:inputType="textPassword"
+            />
+        <EditText
+            android:id="@+id/Emprepassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="re-enter password...."
+            android:gravity="center"
+            android:singleLine="true"
+            android:maxLength="3"
+            android:layout_marginTop="10dp"
+            android:inputType="textPassword"
+            android:layout_marginHorizontal="14dp"
+            />
+        <Button
+            android:id="@+id/Emcreatebtn"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Create Account"
+            android:textAllCaps="false"
+            android:background="#03A9F4"
+            android:textColor="#fff"
+            android:layout_marginTop="10dp"
+            />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

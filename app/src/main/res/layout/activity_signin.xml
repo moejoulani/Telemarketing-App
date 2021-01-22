@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signin">
+
+
+    <ImageView
+        android:id="@+id/imgi"
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/logout"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgi"
+        android:orientation="vertical"
+        >
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="E-mail......."
+            android:fontFamily="sans-serif-condensed"
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:background="@drawable/editback"
+            android:layout_marginHorizontal="20dp"
+
+            />
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Password......."
+            android:singleLine="true"
+            android:textAlignment="center"
+            android:inputType="textPassword"
+            android:background="@drawable/editback"
+            android:layout_marginHorizontal="20dp"
+            />
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+            <RadioButton
+                android:id="@+id/radio_manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Manager"
+                />
+            <RadioButton
+                android:id="@+id/radio_employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Employee"
+                />
+        </RadioGroup>
+        <CheckBox
+            android:id="@+id/remebermeid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Remember Me ?"
+            />
+        <Button
+            android:id="@+id/login"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Log In"
+            android:textSize="18dp"
+            android:textAllCaps="false"
+            android:layout_gravity="center"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:layout_marginTop="20dp"
+            android:background="#394069"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dont Have An Account ? Create New One"
+        android:layout_alignParentBottom="true"
+        android:textSize="14dp"
+        android:textColor="#000"
+        android:padding="7dp"
+        android:id="@+id/createAcc"
+
+
+        />
+
+
+</RelativeLayout>

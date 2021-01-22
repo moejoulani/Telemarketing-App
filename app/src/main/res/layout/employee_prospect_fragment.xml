@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/centerback"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prospects Management "
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="#8BC34A"
+        android:gravity="center"
+        android:padding="14dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        >
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Category : "
+            android:textColor="#000000"
+            />
+        <Spinner
+            android:id="@+id/spi4"
+
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+        </Spinner>
+
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/hyperx"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".managerSetting">
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/app_bar_setting"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#001a4d"
+
+        >
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tool_bar_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#001a4d">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Update"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:id="@+id/CHbutton2"
+                    />
+                <TextView
+                    android:id="@+id/close_btn_update_manager"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Close"
+                    android:textColor="#fff"
+                    android:textSize="20dp"
+                    android:layout_alignParentRight="true"
+                    />
+
+
+
+
+            </RelativeLayout>
+
+
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/oil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar_setting"
+        android:text="Update Your Account Information"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+
+
+        />
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@id/oil"
+        >
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setting_profile_image"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:src="@drawable/profileiii"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+
+        />
+    <TextView
+        android:id="@+id/CHimg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Change Image Profile"
+        android:textSize="18dp"
+        android:textColor="#000"
+        android:textStyle="bold"
+
+
+        />
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_text_input_layout30"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/CHusername"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:freezesText="true"
+                android:ems="10"
+                android:hint="Update Username" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_text_input_layout421"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/CHpassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:inputType="textPassword"
+                android:ems="10"
+                android:hint="New Password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/username_text_input_layout41234"
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/CHRePasswordiii"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:singleLine="true"
+                android:layout_centerVertical="true"
+                android:ems="10"
+                android:inputType="textPassword"
+                android:hint="Re-enter password" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/CHbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Update Information"
+            android:textColor="#fff"
+            android:background="#001a4d"
+            android:padding="7dp"
+            android:layout_marginTop="8dp"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>
